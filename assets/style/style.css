@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    background: #eff2f7;
+    font-family: 'quicksand';
+}
+main {
+    padding: 8px;
+    overflow: auto;
+}
+
+.article {
+    color: #32adff;
+}
+
+.navlist a{
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+a:hover {
+  transition: 0.3s;
+  color: #000000;
+  font-weight: bold;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #32adff;
+}
+
+.title {
+    float: left;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.title:hover {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.menu ul li a {
+    padding: 0 20px;
+    display: block;
+    line-height: 50px;
+}
+
+.menu li:hover{
+    background-color: #ffffff;
+
+}
+.wrap{
+  width: 80%;
+  margin: 0 auto;
+}
+.tblmenubox {
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+.tblmenu {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tblmenubox{
+  display: none;
+  visibility: hidden;
+}
+
+.hero {
+    font-size: 18px;
+    background-color: #e4f5fa;
+    padding: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+article h1{
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.selengkapnya {
+    color: rgb(0, 110, 255);
+    text-decoration: border;
+    font-size: 20px;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.first-card{
+    margin-top: -20px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img{
+    width: 200px;
+}
+
+.text-about{
+    text-align: justify;
+}
+
+.img-about{
+    width: 500px !important;
+}
+
+.judul-artikel{
+    text-decoration: none;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#content-artikel {
+    float: left;
+    width: 75%;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background: #32adff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-about {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.card-artikel{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.card-aside{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+
+/* smartphone media */
+@media screen and (max-width:800px){
+  .menu{
+    display: none;
+  }
+  .tblmenubox{
+    display: block;
+    visibility: visible;
+  }
+  .menu.sh {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background: #ececec;
+    width: 100%;
+    left: 0;
+}
+
+.menu a{
+    color: black;
+}
+
+.menu a:hover {
+    color: #fff;
+    background: #73a4f8;
+    font-weight: bold;
+}
+
+.menu ul li {
+    display: block;
+    text-align: center;
+}
+
+#content-artikel,
+aside{
+    width: 100%;
+    padding: 0px;
+}
+
+.informasi-lainnya{
+    margin: auto;
+}
+
+.card-aside{
+    margin-top: 20px;
+}
+
+.img-about{
+    width: 300px !important;
+}
+
+}
